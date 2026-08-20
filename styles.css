@@ -2107,16 +2107,16 @@ h3 {
   }
 
   .hero-content {
-    padding: 270px 22px 32px;
+    padding: 190px 22px 32px;
   }
 
   .hero-image {
-    height: 21%;
+    height: 24%;
     object-position: 63% top;
   }
 
   .hero-card::before {
-    background: linear-gradient(180deg, rgba(33, 34, 34, 0.04) 0%, rgba(33, 34, 34, 0.22) 10%, rgba(33, 34, 34, 0.78) 18%, #212222 25%, #212222 100%);
+    background: linear-gradient(180deg, rgba(33, 34, 34, 0.04) 0%, rgba(33, 34, 34, 0.2) 12%, rgba(33, 34, 34, 0.78) 23%, #212222 31%, #212222 100%);
   }
 
   .hero h1,

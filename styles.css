@@ -2681,7 +2681,7 @@ h3 {
 }
 
 /* Em telas intermediárias, os cards precisam de mais largura e altura útil. */
-@media (min-width: 901px) and (max-width: 1400px) {
+@media (min-width: 901px) and (max-width: 1100px) {
   .feature-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-rows: auto;
@@ -2695,6 +2695,27 @@ h3 {
 
   .feature-grid > .feature-card:not(.feature-main) {
     min-height: 360px;
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1400px) {
+  .feature-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: minmax(520px, auto) minmax(380px, auto);
+  }
+
+  .feature-main {
+    grid-column: span 2;
+    grid-row: 1;
+    min-height: 0;
+  }
+
+  .feature-grid > .feature-card:not(.feature-main) {
+    min-height: 0;
+  }
+
+  .feature-main .profile-mockup {
+    max-width: 520px;
   }
 }
 

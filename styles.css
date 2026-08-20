@@ -2680,6 +2680,24 @@ h3 {
   font-weight: 700;
 }
 
+/* Em telas intermediárias, os cards precisam de mais largura e altura útil. */
+@media (min-width: 901px) and (max-width: 1400px) {
+  .feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto;
+  }
+
+  .feature-main {
+    grid-column: 1 / -1;
+    grid-row: auto;
+    min-height: 620px;
+  }
+
+  .feature-grid > .feature-card:not(.feature-main) {
+    min-height: 360px;
+  }
+}
+
 .connection-bridge {
   height: 1px;
   position: relative;

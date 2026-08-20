@@ -1600,6 +1600,7 @@ h2 em {
   .trial-points { gap: 6px; }
   .journey-list { grid-template-columns: 1fr; row-gap: 44px; }
   .journey-list li { max-width: 360px; margin-inline: auto; }
+  .journey-list .step-marker { margin: 0 0 26px; }
   .cta-card { min-height: 560px; padding: 48px 22px 74px; border-radius: 24px; }
   .cta-card .button { width: 100%; }
   .cta-caption { left: 22px; right: 22px; text-align: center; line-height: 1.5; }

@@ -2110,6 +2110,15 @@ h3 {
     padding: 270px 22px 32px;
   }
 
+  .hero-image {
+    height: 40%;
+    object-position: 63% top;
+  }
+
+  .hero-card::before {
+    background: linear-gradient(180deg, rgba(33, 34, 34, 0.04) 0%, rgba(33, 34, 34, 0.18) 22%, rgba(33, 34, 34, 0.68) 35%, #212222 43%, #212222 100%);
+  }
+
   .hero h1,
   .trials-content h2 {
     font-size: clamp(40px, 12vw, 52px);

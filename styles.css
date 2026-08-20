@@ -2383,6 +2383,10 @@ h3 {
     height: 180px;
     min-height: 180px;
   }
+
+  .cta-media img {
+    object-position: center top;
+  }
 }
 
 /* Refinements for resources and pricing. */
